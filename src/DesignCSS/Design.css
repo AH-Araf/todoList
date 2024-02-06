@@ -228,6 +228,7 @@
     white-space: nowrap;
     will-change: box-shadow, transform;
     font-size: 18px;
+    width: 110px;
 }
 .button-delete:focus {
     box-shadow: red 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, red 0 -3px 0 inset;
@@ -273,6 +274,7 @@
     white-space: nowrap;
     will-change: box-shadow, transform;
     font-size: 18px;
+    width: 110px;
 }
 
 .button-com:focus {
@@ -319,6 +321,7 @@
     white-space: nowrap;
     will-change: box-shadow, transform;
     font-size: 18px;
+    width: 110px;
 }
 
 .button-edit:focus {

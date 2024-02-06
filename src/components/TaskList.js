@@ -33,8 +33,8 @@ function TaskList() {
     };
 
     return (
-        <div>
-            <TaskForm addTask={addTask} />
+        <div className='task-form-section1'>
+            <section className='task-form-section'><TaskForm addTask={addTask} /></section>
             <h3><span className='total-task'>Total Tasks = {tasks.length}</span> <span className='completed-task'>Completed = {tasks.filter(task => task.isCompleted).length}</span></h3>
             <div>
                 <button className='btn-all' onClick={() => setFilter('all')}>All</button>
