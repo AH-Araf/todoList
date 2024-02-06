@@ -1,0 +1,343 @@
+/* btn-all */
+.btn-all {
+    border: 3px solid black;
+    color: black;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    width: 90px;
+    font-weight: 700;
+}
+
+.btn-all::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transform: translate(100px);
+    z-index: -1;
+}
+
+.btn-all:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-all:hover:after {
+    transform: translate(0px);
+}
+
+
+/* btn-low */
+.btn-low {
+    border: 3px solid mediumseagreen;
+    color: mediumseagreen;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    width: 90px;
+    font-weight: 700;
+}
+
+.btn-low::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: mediumseagreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transform: translate(100px);
+    z-index: -1;
+}
+
+.btn-low:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-low:hover:after {
+    transform: translate(0px);
+}
+
+
+/* btn-medium */
+.btn-medium {
+    border: 3px solid Orange;
+    color: Orange;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    width: 90px;
+    font-weight: 700;
+}
+
+.btn-medium::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: Orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transform: translate(100px);
+    z-index: -1;
+}
+
+.btn-medium:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-medium:hover:after {
+    transform: translate(0px);
+}
+
+
+
+/* btn-high */
+.btn-high {
+    border: 3px solid tomato;
+    color: tomato;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    width: 90px;
+    font-weight: 700;
+}
+
+.btn-high::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    transform: translate(100px);
+    z-index: -1;
+}
+
+.btn-high:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-high:hover:after {
+    transform: translate(0px);
+}
+
+
+.text-input-field{
+    border: 3px solid red;
+}
+.text-input-field:hover{
+    border: 3px solid plum;
+    background-color: aliceblue;
+}
+
+.select-btn{
+    border: 3px solid plum;
+    font-weight: 700;
+    background-color: aliceblue;
+}
+
+.add-task-btn{
+    border: 3px solid green;
+    background-color: mediumaquamarine;
+    font-weight: 700;
+    color:white;
+    transition-duration: .5s;
+}
+.add-task-btn:hover{
+    border: 3px solid green;
+    background-color: mediumseagreen;
+    font-weight: 700;
+    color: white;
+}
+
+.option-1{
+    background-color: mediumseagreen;
+}
+.option-2 {
+    background-color: orange;
+}
+.option-3 {
+    background-color: tomato;
+}
+
+
+
+.button-delete {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, rgb(253, 181, 181) 0, red 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+.button-delete:focus {
+    box-shadow: red 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, red 0 -3px 0 inset;
+}
+
+.button-delete:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, red 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-delete:active {
+    box-shadow: red 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+.button-com {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-com:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-com:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-com:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+.button-edit {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, rgb(135, 245, 135) 0, green 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-edit:focus {
+    box-shadow: green 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, green 0 -3px 0 inset;
+}
+
+.button-edit:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, green 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-edit:active {
+    box-shadow: green 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.task-lists {
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    
+}
